@@ -2,5 +2,15 @@
   "manifest_version": 3,
   "name": "Pomodoro Timer",
   "version": "1.0",
-  "description": "Help you focus and got things done."
+  "description": "Help you focus and got things done.",
+  "icons": {
+    "16": "./misc/icon.png",
+    "48": "./misc/icon.png",
+    "128": "./misc/icon.png"
+  },
+  "action": {
+    "default_icon": "./misc/icon.png",
+    "default_title": "Pomodoro timer",
+    "default_popup": "./popup/popup.html"
+  }
 }
